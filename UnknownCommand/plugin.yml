@@ -1,0 +1,5 @@
+name: UnknownCommand
+author: xTailsPvP
+version: 1.0
+main: de.tails.unknowncommand.main.Main
+api-version: 1.8
