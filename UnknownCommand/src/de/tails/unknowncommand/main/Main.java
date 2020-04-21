@@ -14,13 +14,15 @@ public class Main extends JavaPlugin {
 		Bukkit.getPluginManager().registerEvents(new ZMainListener(), this);
 		Bukkit.getConsoleSender().sendMessage("§aUnknownCommand is activated!");
 		Bukkit.getConsoleSender().sendMessage("§6Plugin by DyeShop!");
-		Bukkit.getConsoleSender().sendMessage("§6Source Code: ");
+		Bukkit.getConsoleSender()
+				.sendMessage("§6Source Code: https://github.com/xTailsPvP/UnknownCommand");
 	}
 
 	@Override
 	public void onDisable() {
-		Bukkit.getConsoleSender().sendMessage("§aUnknownCommand is activated!");
+		Bukkit.getConsoleSender().sendMessage("§cUnknownCommand is deactivated!");
 		Bukkit.getConsoleSender().sendMessage("§6Plugin by DyeShop!");
-		Bukkit.getConsoleSender().sendMessage("§6Source Code: ");
+		Bukkit.getConsoleSender()
+				.sendMessage("§6Source Code: https://github.com/xTailsPvP/UnknownCommand");
 	}
 }
